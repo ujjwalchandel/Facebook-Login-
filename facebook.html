@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #f0f2f5;
+        }
+
+        .header {
+            background-color: #4267b2;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header .logo {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            color: #4267b2;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 60px);
+            border-radius: 15px;
+        }
+
+        .form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form h1 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .form input[type="text"],
+        .form input[type="password"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        .form button[type="submit"] {
+            background-color: #4267b2;
+ color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .form button[type="submit"]:hover {
+            background-color: #2d4f7f;
+        }
+        img{
+            height: 50px;
+            padding-right: 1500px;
+        }
+        #footer{
+            align-items: center;
+            color: grey;
+        }
+        #login{
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        a{
+            color: #4267b2;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+       <img src="./640px-Facebook_f_logo_(2021).svg.webp">
+    </header>
+    <div class="container">
+        <div class="form">
+            <h1>Facebook</h1>
+            <form>
+                <h4>Username or Email</h4>
+                <input type="text">
+                <h4>Password</h4>
+                <input type="password" >
+                <button type="submit" id="Login">Log In</button><br>
+                <a><b>Forgot Password? - Sign Up for Facebook</b></a>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p id="footer">
+         C 2024 Facbook-like Website
+        </p>
+    </footer>
+</body>
+</html>
